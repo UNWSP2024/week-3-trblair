@@ -15,7 +15,14 @@ def weight_conversion(weight):
     ######################
     # WRITE YOUR CODE HERE
     ######################
-    
+    if weight <= 2:
+        shippingCost = weight*1.5
+    if (weight>2)&(weight<=6):
+        shippingCost = weight*3
+    if (weight>6)&(weight<=10):
+        shippingCost = weight*4
+    if weight > 10:
+        shippingCost = weight*4.75
     return shippingCost
 
 #### This piece of the code has been done for you,
