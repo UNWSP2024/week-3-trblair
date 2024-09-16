@@ -10,7 +10,14 @@ def categorize_age(age):
     ######################
     # WRITE YOUR CODE HERE
     ######################
-
+    if age <= 1:
+        ageCategory = "infant"
+    if (age>1)&(age<13):
+        ageCategory = "child"
+    if (age>=13)&(age<20):
+        ageCategory = "teenager"
+    if age>=20:
+        ageCategory = "adult"
 
     return ageCategory
 
