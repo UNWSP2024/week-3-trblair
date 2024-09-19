@@ -18,10 +18,7 @@ def categorize_age(age):
         ageCategory = "teenager"
     if age>=20:
         ageCategory = "adult"
-
     return ageCategory
-
-
 #### This piece of the code has been done for you,
 #### you only need to worry about the actual shipping 
 #### charge logic in the weight_conversion function
